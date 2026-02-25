@@ -10,6 +10,6 @@ At first glance, the dose cycle may seem complicated and confusing, but it has b
 
 Many of the variables that impact the dose cycle are set in the settings menu, but the basic flow will always remain unchanged. 
 
-.. image:: Dosing Algorithm.png
+.. figure:: images/DosingAlgorithm.png
    :align: center
    :alt: Dosing Algorithm
