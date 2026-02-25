@@ -23,17 +23,17 @@
    NAVIGATION & SIDEBAR
    ==================== */
 
-/* Sidebar background */
+/* Sidebar background - main branding element */
 .wy-side-nav-search {
     background-color: var(--brand-primary) !important;
 }
 
-/* Sidebar hover color */
+/* Sidebar navigation - using default colors for readability */
+/* Uncomment below to use brand colors in navigation:
 .wy-menu-vertical a:hover {
     background-color: var(--brand-primary-dark) !important;
 }
 
-/* Active/current section in sidebar */
 .wy-menu-vertical li.current a {
     border-right-color: var(--brand-primary) !important;
 }
@@ -42,11 +42,14 @@
     background-color: var(--brand-light) !important;
     border-color: var(--brand-primary) !important;
 }
+*/
 
 /* ====================
    LINKS
    ==================== */
 
+/* Using default link colors for better readability */
+/* Uncomment below to use brand colors for links:
 a {
     color: var(--brand-primary) !important;
 }
@@ -58,11 +61,14 @@ a:hover {
 a:visited {
     color: var(--brand-secondary) !important;
 }
+*/
 
 /* ====================
    BUTTONS & UI ELEMENTS
    ==================== */
 
+/* Using default button colors for readability */
+/* Uncomment below to use brand colors for buttons:
 .btn-neutral {
     background-color: var(--brand-primary) !important;
     color: white !important;
@@ -71,6 +77,7 @@ a:visited {
 .btn-neutral:hover {
     background-color: var(--brand-primary-dark) !important;
 }
+*/
 
 /* ====================
    ADMONITIONS (Note, Warning boxes)
@@ -142,11 +149,13 @@ a:visited {
     border-top: 2px solid var(--brand-primary) !important;
 }
 
-/* Table header styling */
+/* Table header styling - using default for readability */
+/* Uncomment below to use brand colors for table headers:
 .wy-table-responsive table thead {
     background-color: var(--brand-primary) !important;
     color: white !important;
 }
+*/
 
 /* Code block customization */
 .highlight {
