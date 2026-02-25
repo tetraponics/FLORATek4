@@ -31,5 +31,40 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+# Theme options for branding
+html_theme_options = {
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'style_nav_header_background': '#2ecc71',  # Your brand color
+    # Toc options
+    'collapse_navigation': False,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
+}
+
+# Add custom CSS and logo
+html_static_path = ['_static']
+html_css_files = [
+    'custom.css',
+]
+
+# Logo and favicon (add your logo files to _static folder)
+html_logo = '_static/tetraponicslogo.png'
+html_favicon = '_static/favicon.ico'
+
+# Custom sidebar
+html_sidebars = {
+    '**': [
+        'globaltoc.html',
+        'relations.html',
+        'sourcelink.html',
+        'searchbox.html',
+    ]
+}
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

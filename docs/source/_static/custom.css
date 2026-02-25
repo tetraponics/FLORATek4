@@ -1,0 +1,164 @@
+/* FLORATek 4 Custom Branding */
+
+/* ====================
+   BRAND COLORS
+   Update these with your brand colors
+   ==================== */
+
+:root {
+    /* Primary brand color - используется for links, buttons, accents */
+    --brand-primary: #006cd8;      /* Green - change to your primary color */
+    --brand-primary-dark: #004d99; /* Darker shade for hovers */
+    
+    /* Secondary/accent colors */
+    --brand-secondary: #0f9347;    /* Blue - change to your secondary color */
+    --brand-accent: #0b6b33;       /* Orange/Yellow - for warnings/highlights */
+    
+    /* Neutral colors */
+    --brand-dark: #2c3e50;         /* Dark gray/blue for text */
+    --brand-light: #ecf0f1;        /* Light background */
+}
+
+/* ====================
+   NAVIGATION & SIDEBAR
+   ==================== */
+
+/* Sidebar background */
+.wy-side-nav-search {
+    background-color: var(--brand-primary) !important;
+}
+
+/* Sidebar hover color */
+.wy-menu-vertical a:hover {
+    background-color: var(--brand-primary-dark) !important;
+}
+
+/* Active/current section in sidebar */
+.wy-menu-vertical li.current a {
+    border-right-color: var(--brand-primary) !important;
+}
+
+.wy-menu-vertical li.current > a {
+    background-color: var(--brand-light) !important;
+    border-color: var(--brand-primary) !important;
+}
+
+/* ====================
+   LINKS
+   ==================== */
+
+a {
+    color: var(--brand-primary) !important;
+}
+
+a:hover {
+    color: var(--brand-primary-dark) !important;
+}
+
+a:visited {
+    color: var(--brand-secondary) !important;
+}
+
+/* ====================
+   BUTTONS & UI ELEMENTS
+   ==================== */
+
+.btn-neutral {
+    background-color: var(--brand-primary) !important;
+    color: white !important;
+}
+
+.btn-neutral:hover {
+    background-color: var(--brand-primary-dark) !important;
+}
+
+/* ====================
+   ADMONITIONS (Note, Warning boxes)
+   ==================== */
+
+/* Note boxes */
+.admonition.note {
+    border-left: 4px solid var(--brand-primary) !important;
+}
+
+.admonition.note .admonition-title {
+    background-color: var(--brand-primary) !important;
+}
+
+/* Tip boxes */
+.admonition.tip {
+    border-left: 4px solid var(--brand-secondary) !important;
+}
+
+.admonition.tip .admonition-title {
+    background-color: var(--brand-secondary) !important;
+}
+
+/* Warning boxes */
+.admonition.warning {
+    border-left: 4px solid var(--brand-accent) !important;
+}
+
+.admonition.warning .admonition-title {
+    background-color: var(--brand-accent) !important;
+}
+
+/* ====================
+   CUSTOM STYLES
+   ==================== */
+
+/* Logo styling (if you add a logo) */
+.wy-side-nav-search > a img.logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Custom highlight box */
+.highlight-box {
+    background-color: #e8f8f5;
+    border-left: 4px solid var(--brand-primary);
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/* Product name emphasis */
+.brand-name {
+    color: var(--brand-primary);
+    font-weight: bold;
+}
+
+/* Version badge */
+.version-badge {
+    background-color: var(--brand-primary);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+/* Custom footer styling */
+.rst-footer-buttons {
+    border-top: 2px solid var(--brand-primary) !important;
+}
+
+/* Table header styling */
+.wy-table-responsive table thead {
+    background-color: var(--brand-primary) !important;
+    color: white !important;
+}
+
+/* Code block customization */
+.highlight {
+    border-left: 3px solid var(--brand-primary);
+}
+
+/* ====================
+   RESPONSIVE ADJUSTMENTS
+   ==================== */
+
+@media screen and (max-width: 768px) {
+    .wy-side-nav-search {
+        padding: 10px;
+    }
+}
