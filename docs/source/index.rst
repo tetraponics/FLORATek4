@@ -1,22 +1,75 @@
-Welcome to Lumache's documentation!
-===================================
+FLORATek 4 User Manual
+======================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Welcome to the FLORATek 4 User Manual. This comprehensive guide will help you set up, configure, and operate your FLORATek 4 hydroponics controller.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+**FLORATek 4** is a powerful hydroponics controller designed to monitor, track, and control the pH and nutrient levels in your hydroponics system. It features continuous monitoring, smart proportional control, graphical displays, data logging, and remote access capabilities.
 
 .. note::
 
-   This project is under active development.
+   Please read through the relevant sections carefully before using your controller. Proper setup and calibration are essential for optimal performance.
 
-Contents
---------
+Getting Started
+---------------
 
 .. toctree::
+   :maxdepth: 2
 
-   usage
-   api
+   introduction
+   features
+   getting-started
+   system-setup
+
+Configuration
+-------------
+
+.. toctree::
+   :maxdepth: 2
+
+   user-interface
+   dosing-setup
+   system-configuration
+
+Probes and Calibration
+-----------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   probes
+   calibration
+
+Control Systems
+---------------
+
+.. toctree::
+   :maxdepth: 2
+
+   ph-control
+   ec-control
+
+Operation and Maintenance
+--------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   using-control
+   maintenance
+   troubleshooting
+
+Connectivity
+------------
+
+.. toctree::
+   :maxdepth: 2
+
+   blynk
+
+Support
+-------
+
+For questions or support, contact Tetraponics:
+
+* Website: www.tetraponics.com/contact
+* Email: support@tetraponics.com

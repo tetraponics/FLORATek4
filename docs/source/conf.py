@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'FLORATek 4'
+copyright = '2026, Tetraponics'
+author = 'Tetraponics'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.3'
+version = '1.3.0'
 
 # -- General configuration
 

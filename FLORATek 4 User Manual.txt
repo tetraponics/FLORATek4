@@ -1,0 +1,1230 @@
+﻿FLORATek 4
+FLORATek 4 Pro
+
+
+User Manual
+Rev 1.3    
+
+
+Table of Contents
+Table of Contents        2
+Introduction        3
+Features and Specifications        4
+Getting Started        5
+Probe Care        6
+Hydroponics System Setup        7
+Mounting your FLORATek 4 Control        7
+Probes and Tubing Setup        8
+Before you continue        9
+User Interface        10
+Button Functionality        10
+Information Screens        11
+Menus        12
+Main Menu        12
+Dosing Setup        13
+System Setup        14
+Probes and Sensors        17
+Prime Pumps        18
+WiFi and Updates        18
+Data Logging        18
+Controlling pH        19
+Dual pH Control        19
+Controlling EC        20
+Probe Care        21
+Probe Calibration        21
+pH Probe Calibration        22
+EC Probe Calibration        22
+System Setup & Blend Time        23
+Solution Concentrations        23
+Dosing Pump Setup        24
+Priming the Pumps        25
+Dosing Setup        26
+Using the Control        27
+Supplemental Nutrients        27
+Alarms and Faults        28
+Water Changes        29
+Connecting to Blynk        30
+Contact Us        31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+
+
+
+The FLORATek 4 is a powerful hydroponics controller designed to monitor, track, and control the pH and nutrient levels in your hydroponics system. It represents the cumulination of knowledge and experience that we have gained from developing the FLORATek 3 and 3X systems. Users familiar with those systems will find much of the same DNA in the FLORATek 4. This is intentional- when developing a new product, we first analyze the best traits of our previous products and carry them over into subsequent designs. Our most important resource when developing a new product, however, is customer feedback. The majority of the new features you will find in this new control are features that have been requested by previous customers just like you. 
+
+
+I would like to make you aware of some of the many improvements that may not be so obvious when using this new controller. First, we went back to the drawing board to develop our own EC and pH measuring circuits and firmware. The hydroponics environment can be notoriously difficult to get both accurate and reliable sensor measurements, but we believe this new system sets a new standard not only within our own product line, but across the industry. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Features and Specifications
+
+
+The FLORATek 4 and FLORATek 4 Pro feature:
+
+
+* Continuous pH, nutrient level, and temperature monitoring
+* Proportional Smart Feed control for pH solutions and nutrients
+* A new graphical user interface and menu system for improved ease of use
+* Quick graphs that display historical pH and EC data for easily spotting trends
+* Consumption tracking for all connected pH solutions and nutrients
+* On-board memory for data logging w/ USB connectivity for downloading logs
+* 4 integrated user-configurable dosing pumps
+* Expandability to use 8 or 12 total dosing pumps
+* Online access for remote monitoring, setup, and data logging
+* Compatibility with future hardware and software updates
+
+
+
+
+
+
+
+
+Included with every FLORATek 4 and FLORATek 4 Pro System:
+
+
+* Control with 4 integrated dosing pumps
+* Tubing
+* pH Probe
+* EC/Temperature Probe
+* Calibration Solutions
+* 24-volt Power Adapter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Getting Started
+
+
+This section will guide you through the setup process for your FLORATek 4 system. 
+
+
+What you will need:
+
+
+* FLORATek 4 system with all included accessories
+* Your hydroponic system, assembled and ready for water
+* Water reservoir with lid
+* pH up and pH down solution if used 
+* Nutrient solutions with feedchart
+
+
+Some important notes before starting:
+
+
+Your FLORATek 4 system must be properly setup, configured, and calibrated before use. 
+
+
+If you are supplying pH solutions and nutrients directly into a reservoir, the ends of the nutrient feed tubes should always be kept above the surface of the water. If the feed tubes become submerged, nutrients will be siphoned out of the tubes, causing unbalanced water and possibly damaging plants.
+
+
+When using the FLORATek 4 system, the water level in your reservoir should be closely monitored. If the water level drops below the probes, the FLORATek will not be able to correctly monitor or treat your water, your probes may be damaged, and your plants may be damaged or die. If the water level rises too high, solution may be siphoned from the feed tubes. With most hydroponic systems, the use of a float valve and overflow drain can greatly assist the user with keeping the water at the appropriate level.
+
+
+
+
+
+
+
+
+  
+WARNING
+	WARNING! pH correction solutions (pH up and down) should never be directly mixed together! Dangerous chemicals and gases can be created. When switching between pH solutions, ensure the pH pump(s) and tubing are thoroughly flushed with water. 
+	
+
+
+
+
+
+Probe Care
+  
+
+
+
+
+
+
+
+
+
+
+
+The FLORATek 4 system uses high-quality pH and EC probes to monitor the condition of your water. These probes are extremely accurate and reliable, but must be properly cared for to prevent them from being damaged. 
+
+
+Even when properly cared for, the pH and EC probes will require replacement. How frequently the probes require replacement depends greatly on how they are maintained, how frequently they are used, and how they are stored when not being used. 
+
+
+Here’s some tips for keeping your probes healthy and accurate:
+
+
+* Protect your probes from impact. Take care not to drop them. 
+* When not being actively used, store your probes properly in a safe spot. 
+* Never use your probes to stir a solution.
+* The pH probe hydration cap should be kept on the pH probe whenever the probe is not in use. If the tip of the pH probe dries out, the probe may be permanently damaged. Keep your hydration cap stored somewhere safe. For short-term storage, such as during long water changes, use a small amount of pH 4.0 Calibration Solution in the cap. For long-term storage, pH probe storage solution should be used. 
+* Pure distilled water (DW) and reverse osmosis (RO) water can damage the pH probe over time. If using distilled water or RO water, you may want to stabilize your water by using it in a ratio with regular tap water. The use of distilled water and RO water is covered in the Electrical Conductivity section.
+
+
+
+
+
+
+
+
+Hydroponics System Setup
+
+
+Before setting up your FLORATek 4 control, you should first prepare, plumb, and test your entire hydroponic reservoir and system. 
+
+
+Keep these tips in mind when designing and constructing your system:
+
+
+* When configuring your reservoir, do not place air stones directly under the probes. Bubbles and aerated water can interfere with accurate probe readings. 
+* Heaters, pumps, and any other components should be installed at least 12 inches from the probes.
+* Completely fill your reservoir and hydroponic system with water before installing your FLORATek system. You will need the water at the correct stable level in your reservoir before installing your probes and tubing. As you add water to your system for the first time, try to track the amount added as closely as possible- you’ll need to know the approximate water capacity of your entire hydroponic system.
+* Water should continuously circulate throughout the reservoir to ensure accurate monitoring and effective nutrient mixing. In some cases, a recirculation tee or a second small water pump may need to be used for effective mixing of the water in the reservoir. 
+
+
+Mounting your FLORATek 4 Control
+In most cases, your FLORATek 4 control should be mounted securely on a vertical surface near your reservoir. Your probes and nutrient tubing will need to reach into your reservoir, and your power cords will need to reach a 120v power source. If this is not possible, or you would like a more convenient configuration, consider using our probe cell and/or inline manifold (both sold separately).
+
+
+
+
+  
+WARNING
+	WARNING! Nearly all hydroponics systems involve placing electronic devices in or near water. If not installed properly, this can result in electrocution, serious injury, and/or death. We strongly encourage you to utilize a properly-installed GFCI outlet for all devices used with your hydroponics system. Test this GFCI outlet regularly. If you have questions about your electrical situation or need a GFCI outlet installed, contact a licensed electrician. 
+	
+
+
+
+
+
+Probes and Tubing Setup
+
+
+It is important to properly install your pH probe, EC probe, and nutrient tubing. There are many ways this can be accomplished, and the best way depends on your particular hydroponics system and reservoir. 
+
+
+No matter what method you use to mount your probes and tubing, always follow these guidelines:
+
+
+* It is most convenient to calibrate your probes before installing them in your reservoir. 
+* The tips of your probes must always be submerged about 2-4 inches below the surface of the water. If your probe tips are too shallow, your FLORATek control will not be able to accurately measure the pH, EC, and temperature of your water and may incorrectly pump unwanted pH and nutrient solutions into your water. 
+* Your pH and EC probes should NEVER be allowed to dry out. See the section on probe maintenance for more information. 
+* Your pH and EC probes should not be completely submerged underwater. 
+* Unlike the probes, make sure the ends of the tubing never submerge in the water. The pH and nutrient solutions should drip out of the tubing and into the water. Because of the low surface tension of pH and nutrient solutions, water can travel up the tubing and pull solutions out of the tubing without them being pumped. This will lead to undesired and inaccurate dosing, and will make your FLORATek control struggle to accurately maintain your water chemistry.
+* Make sure the water in your reservoir is being circulated thoroughly and constantly. Because the FLORATek 4 control is always on and running, it will struggle to maintain your desired water chemistry if it is not being circulated continuously. You may want to add a small auxiliary water pump in your reservoir (or tee off of your main pump) to make sure water is being thoroughly mixed. 
+
+
+
+
+
+
+Accessories for mounting your probes and tubing can be found at www.tetraponics.com
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Before you continue
+
+
+Now that your hydroponic system is set up and ready, it is time to configure your FLORATek 4 control. 
+
+
+Before beginning the control configuration process, it is wise to double-check your setup. Ensure that your pH probe, EC probe, and (if applicable) pump boxes are plugged into the control box. Also ensure all tubing runs correctly from their containers, to the pumps, then to the reservoir. There should be no kinks or sharp turns in the tubing. Finally, make sure that your hydroponic system is filled to the correct level and your circulation pump is running. 
+
+
+Take note of the water level in your reservoir. You should add water when the level drops to within 1 inch of the probe tips. All hydroponic systems lose water due to evaporation, and the rate at which you will need to add water varies depending on the size of your system, the plants you are growing, and the geometry of your reservoir. 
+
+
+Using the supplied 24-volt DC power adapter, plug in your FLORATek 4. You can use either of the DC barrel jacks - they both can supply power to the control while the other passes through the 24V DC power to the optional pump expansions. 
+
+
+At power-up, your FLORATek control always starts up in the paused mode so it will not begin pumping nutrients or pH solution. Do not press RUN until you have fully completed the configuration process. Note that your pH and EC measurements will be incorrect at first startup due to the probes not yet being calibrated. 
+
+
+The next section will guide you through the user interface and configuration process. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+User Interface
+  
+
+Button Functionality
+Home/Cancel
+	Displays the home screen (when on an information screen or in menu)
+Cancels the current selection without saving (when editing a setting)
+	Alarm
+	Displays the alarm screen with all currently active alarms.
+	Run/Reset
+	Press to cycle run/pause.
+Press and hold to reset the current dose cycle*
+	Menu Up/Down
+	Enters the menu (when on the home screen)
+Cycles through the menu selections (when in menu)
+Increments or decrements the selection (when editing a setting)
+	Screen Left/Right
+	Cycles through the various information screens (when on the home screen)
+Right arrow enters submenus (when in menu)
+Selects the character or digit (when editing certain settings)
+	Select/Save
+	Enters the menu (when on the home screen)
+Selects a setting to edit or submenu to enter (when in a menu)
+Saves the current setting (when editing a setting)
+	
+
+
+
+
+
+Information Screens
+From the home screen, pressing the left and right buttons cycles through the information screens.
+
+
+Dose Info
+Describes the current state of the FLORATek control with some additional details. 
+ 
+Solution Levels
+When consumption tracking is enabled, this screen illustrates the current approximate solution levels inside of your containers.
+ 
+Pump Assignments
+Provides a quick reference for your current pump configuration.
+ 
+About
+Provides information about your FLORATek 4 control along with diagnostic information. 
+ 
+2-hour EC Graph
+A quick-reference graph of the measured EC for the past 2 hours. Each pixel along the x-axis represents approximately one minute. The dotted line represents your current EC setpoint. 
+ 
+2-hour pH Graph
+A quick-reference graph of the measured pH for the past 2 hours. Each pixel along the x-axis represents approximately one minute. The dotted line represents your current pH setpoint, with a y-axis range of +/-2pH.
+ 
+24-hour EC Graph
+A quick-reference graph of the measured EC for the past 24 hours. Each pixel along the x-axis represents approximately 12 minutes. The dotted line represents your current EC setpoint.
+ 
+24-hour-pH Graph
+A quick reference graph of the measured pH for the past 24 hours. Each pixel along the x-axis represents approximately 12 minutes. The dotted line represents your current pH setpoint, with a y-axis range of +/-2pH.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Menus
+From the home screen, pressing up, down, or select will enter the main menu. From the main menu, you can navigate to the various submenus to configure your settings and access functions. 
+
+
+Note: depending on your current software version and configuration, you may see more or fewer options than are described here. 
+
+
+Main Menu
+Dosing Setup
+Frequently-adjusted settings pertaining to your current nutrient schedule and grow cycle.
+ 
+System Setup
+Configuration settings that are typically adjusted infrequently.
+ 
+Probes and Sensors
+Information and functions related to probe maintenance.
+ 
+Prime Pumps
+Functions for priming all connected dosing pumps.  
+ 
+Connections
+Information and settings pertaining to connecting your control to the internet or to other other remote pumps and sensors. 
+ 
+Data Logging
+Settings and functions related to the on-board data logging feature.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dosing Setup
+Current Growday
+Displays the current growday. To set or reset the current growday, see “Set Growday” lower in Dosing Setup.
+ 
+pH Setpoint
+Displays and adjusts the current pH setpoint.
+ 
+EC Setpoint
+Displays and adjusts the current EC setpoint. To change your EC units, see “EC Units” in System Setup.
+ 
+EC Base
+Displays and adjusts the current EC base. See the Electrical Conductivity[a] section in the manual for more information. When the EC base is set greater than 0, an asterisks (*) will display on the home screen alongside the EC setpoint. 
+ 
+Nutrient A, B, …
+Displays and adjusts the current nutrient setpoints in mL/gal. The nutrient setpoints are used to calculate the proper nutrient ratio which the control will use to reach the EC setpoint. This information can be found on the feedchart for your particular nutrients. 
+ 
+Set Growday
+Use to adjust the current growday. 
+ 
+Reset to Day 1
+Use to set the current growday to 1. 
+ 
+Reset Current Dose
+When the control is paused, this function can be used to reset the current dose calculations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+System Setup
+Dosing Pump Setup
+Enters the Dosing Pump Setup submenu
+        Manage Remote Pumps
+        Enters the Remote Pumps submenu
+                Connected Pumps
+                Displays the number of currently paired pumps. 
+                Connect Remote Pumps
+                Commands the control to find and pair any remote pumps
+                Forget Remote Pumps
+                Unpairs all remote pump connections
+        pH Configuration
+        Sets the current pH configuration to Up, Down, Down and Up, or None. 
+        Track Consumption
+        Enables the solution level tracking functionality. 
+        Pump 1, 2…
+        Enters the submenu for the various pumps
+                Container Cap mL
+                Set the capacity of the container for this pump
+                Current Level mL
+                Displays the current solution level in the container
+                Set to Full
+                Sets the container level to full
+        Nutrient Labels
+        Sets custom labels for the installed nutrients
+ 
+Enable pH Control
+Enables or Disables pH control. 
+
+
+System Cap. (gal)
+Sets the water capacity of the hydroponics system in gallons. 
+ 
+Blend Time (min)
+Sets the amount of time that the control will wait in between doses when in Run mode
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Alarm Settings
+Enters the Alarms submenu
+        EC Alarm Band
+Sets the EC alarm band. If the measured EC is different from the setpoint by more than this amount, the appropriate EC alarm will be triggered. 
+pH Alarm Band
+Sets the pH alarm band. If the measured pH is different from the setpoint by more than this amount, the appropriate pH alarm will be triggered. 
+Low Temp Alarm
+If the temperature drops below this setting, the low temperature alarm will be triggered
+High Temp Alarm
+If the temperature rises above this setting, the high temperature alarm will be triggered
+Advanced Setup
+Enters the Advanced Setup submenu
+        Factory Reset
+Triggers a full factory reset. This will erase all saved variables/settings and revert the control back to the factory default settings. 
+
+
+Units
+Enters the Units submenu
+  
+EC Units
+Sets PPM or mS as the EC units. The FLORATek 4 uses the x500 scale (mS x 500 = PPM)
+Temp Units
+Sets the temp units to Fahrenheit or Celsius 
+
+
+Interface Settings
+Enters the Interface Settings submenu
+ 
+Backlight
+Sets the backlight level. (10 = max, 0 = off)
+Backlight Timer (s)
+Sets the backlight timer in seconds. (0 = off)
+LED Brightness
+Sets the brightness of the Alarm and Mode LEDs. (10 = max, 1 = min)
+Enable Beeps
+Enables or disables the beeper. 
+
+
+
+
+Custom Gains
+Enters the Custom Gains submenu
+        pH Down Gain %
+Sets a custom pH down gain to compensate for strong/weak pH down solution (for example, setting to 50 will reduce the pH down solution used by half. Setting to 200 will double. 
+pH Up Gain %
+Sets a custom pH up gain
+Nutrnt Gain %
+Sets a custom nutrient gain
+
+
+Set Time
+Used to set the current time. Input the current date and time, then select “Set Time”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Probes and Sensors
+EC Probe Maintenance
+Enters the EC Probe Maintenance submenu
+        Days since last cal
+        Displays the number of days since the EC probe was last calibrated
+        Days since new
+        Displays the number of days since the EC probe was replaced 
+        Calibrate EC 1000ppm
+Calibrates the probe to 1000ppm. The EC reading must be stable in the 1000ppm calibration solution in order for this to function. A message and beep will confirm successful calibration. 
+New EC Probe
+Sets the “Days Since New” counter to 0
+
+
+pH Probe Maintenance
+Enters the pH Probe Maintenance submenu
+        Days since last cal
+        Displays the number of days since the pH probe was last calibrated
+        Days since new
+        Displays the number of days since the pH probe was replaced 
+        Calibrate pH 7.00
+Calibrates the probe to 7.00. The pH reading must be stable in the 7.00 calibration solution in order for this to function. A message and beep will confirm successful calibration. 
+        Calibrate pH 4.00
+Calibrates the probe to 4.00. The pH reading must be stable in the 4.00 calibration solution in order for this to function. A message and beep will confirm successful calibration. 
+New pH Probe
+Sets the “Days Since New” counter to 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Prime Pumps
+Prime Pump 1, 2…
+Used to prime the selected pump. Press and hold the Select button to turn on the pump. Release when the tubing is correctly primed. 
+WiFi and Updates
+Enable / Disable Blynk
+Enables (or disables) the Blynk connection. When enabled, you can provision your FLORATek 4 to your WiFi network using the Blynk app. Once provisioned, your control will save your WiFi network information and will automatically connect in the future. 
+
+
+When enabled, Blynk connection status is displayed in the upper right corner of the main status screen. If .X is visible, your FLORATek is not connected to your network (or is not yet provisioned). When Connected to Blynk, the connection symbol will cycle as your control communicates with the Blynk servers. 
+
+
+Reset Blynk
+This function will erase all connection and WiFi information from your FLORATek 4 control. 
+
+
+Automatic Updates
+When enabled, your FLORATek 4 control will automatically receive, download, and install updates. These updates will only be installed when the control is in the pause mode. 
+Data Logging
+Enable Logging
+Enables on-board logging of your control state, EC, pH, setpoints, and temperature. This is logged as a .CSV file in your FLORATek control that can be accessed via USB connection. 
+
+
+Log Interval (min)
+Changes the log interval. Shorter durations increase log resolution but decrease overall log duration. 
+
+
+Enable USB
+This function switches the control into USB mode. The internal logs can then be accessed via USB-C cable between the FLORATek and any phone or computer. Log files can be copied and/or deleted. 
+
+
+Clear Log
+Clears all information from the log file. 
+Controlling pH
+
+
+Using your FLORATek 4, measuring and adjusting your pH will be a straightforward and nearly completely automated process. However, there are some important things to know about pH control before you use your FLORATek 4. 
+
+
+pH is a measure of how acidic or basic your water is, expressed on a scale of 0 to 14. A pH of 7 is neutral water that is neither acidic nor basic. Acids have a pH of less than 7, while bases have a pH of more than 7. Most hydroponics systems use slightly acidic water with a pH between 5.5 and 6.5. Depending on the exact chemical makeup of your untreated water, your starting pH will likely be about 7.0-7.5.
+
+
+The alkalinity of your water is a measure of your water’s resistance to a change in pH. The alkalinity of your water may be higher if using mainly tap water, or it may be very low if using distilled or reverse osmosis water. It is not necessary to know your water’s alkalinity to use your FLORATek system.
+
+
+When the FLORATek system adds nutrients to your water, the pH will usually drop. For many hydroponics systems, the pH will be lowered somewhat, but additional pH down solution will be needed to reach the desired setpoint. However, if you are using water with very low alkalinity such as distilled or reverse osmosis water, the added nutrients may push the pH down far below the setpoint. In this case, you will need to use pH up solution with your FLORATek to reach the setpoint. 
+
+
+While we understand the desire to use pure distilled or reverse osmosis water in your hydroponics system, the extremely low alkalinity may cause your pH to be difficult to control. When using DW or RO water, we recommend adding 10-20% tap water to help stabilize your pH. 
+
+
+Finally, it is important to remember that the chemistry and alkalinity of the water in your hydroponics system changes over time. As an example, you may need to use pH down for the first few days following a water change, but then the pH may drift down past the setpoint on its own. If your pH is slowly drifting beyond the setpoint, simply flush the pH pump tubing, install the required pH correction solution, and change the pH control type setting in the pH setup menu.  
+
+
+Dual pH Control
+
+
+Do you want to have full control over your pH? Dual pH control enables you to automate dosing of both pH up and pH down, along with your nutrients. 
+Controlling EC
+
+
+The FLORATek 4 monitors the electrical conductivity (EC) of your water to determine the level of nutrients in the water. Measuring nutrient levels with EC is accurate and reliable, but does have some considerations that are important to understand. 
+
+
+The water that you use in your hydroponic system contains some amount of minerals and impurities which contribute to the EC reading. Your EC probe will detect these minerals, which may be 100ppm or less for systems using mostly reverse osmosis (RO) water or could be 400ppm or higher if using hard tap water. EC probes cannot differentiate between these minerals and the hydroponic nutrients you intend to add, so before adding nutrients we measure these minerals and subtract them from the displayed EC. We call this your EC Base.
+
+
+When you input this reading as the EC base on the EC Setup page, the FLORATek will subtract it from the measured EC reading before displaying your EC:
+
+
+Displayed EC = Measured EC – EC Base
+
+
+For this reason, your displayed EC may be negative if your EC base is larger than your measured EC. In this case, you should lower your EC base. With fresh water and no added nutrients, you should input an EC base that is as close as possible to your measured EC without being over. 
+
+
+It is important to understand that the FLORATek control also uses the Displayed EC when calculating doses. 
+
+
+Let’s say you wish to have 1000ppm of nutrients in your water, but your untreated water has a measured EC of 250ppm due to the impurities in your tap water. By inputting 250ppm as your EC base, the FLORATek control knows it needs to add 1000ppm of nutrients instead of just 750ppm. 
+
+
+Your EC Base may change between water changes. Following a water change, you should adjust your EC base if the displayed EC is negative or is more than 20ppm. 
+
+
+Note: Using the EC base setting is completely optional. You can leave it set at 0 and your control will simply use the raw reading from the EC probe to display EC and add nutrients to the water. 
+
+
+
+
+
+
+Probe Care
+
+
+The EC and pH probes included with your FLORATek 4 system will last for many grows if properly cared for. However, these probes can give false readings and/or completely fail if neglected or misused. 
+
+
+The tips of your probes should be cleaned at least every month, or when you suspect they may be giving incorrect readings. To clean the tips of your probes:
+1. Place your control in Pause mode
+2. Using a very soft brush, gently clean the tip of each probe. Clean the pH probe only with water. A mild dish soap can be used on the tip of the EC probe if necessary. 
+3. Always recalibrate your probes following cleaning. 
+
+
+When not in use, store your pH probe using the storage cap it comes with. Always check to make sure the sponge inside the storage cap is soft and wet, and the cap is filled about half way with 4.00 calibration solution before using it. The EC probe should be cleaned and dried before storage. 
+Probe Calibration
+Proper probe calibration is necessary before using your control for the first time. You should also recalibrate your probes every month they are in use, before starting a new grow, after a probe has been stored for longer than a month, or when you replace a probe. Failure to calibrate your probes before use will cause imbalanced water and damage to plants. 
+
+
+Calibration tips:
+* The EC probe also features a temperature sensor. Both probes and the calibration solutions should be at room temperature before calibration. 
+* Do not calibrate your probe directly in the container of calibration solution, as this will change the chemistry and reliability of the solution. Instead, pour just enough solution into a small container, such as a shot glass or small water glass. 
+* Always dispose of used calibration solutions. 
+
+
+What you’ll need:
+* A glass of room-temperature tap water for rinsing probes
+* 1000ppm EC probe calibration solution
+* 4.00 and 7.00 pH calibration solution
+* Small containers for the calibration solutions (a 1oz container such as a shot glass or medicine cup is ideal)
+
+
+pH Probe Calibration
+The pH probe is blue and has a fragile glass bulb protruding from the tip.
+
+
+1. Fill a glass with tap water, let it come to room temperature, then place both probes into it. Ensure the pH probe and the EC probe are connected to the FLORATek control box. 
+2. Make sure your pH solution is at room temperature and not expired. 
+3. Open the calibration menu by navigating to the “Probes and Sensors” menu then selecting “pH Probe Maintenance.” If you are installing a new probe, select “New pH Probe” to reset the “Days since new” counter.
+4. Gently rinse the tip of the probe with room-temperature tap water, then shake off excess water.
+5. Place the pH probe into the 4.00pH calibration solution. The solution should cover the entire tip of the probe. 
+6. Wait about 30 seconds until the pH reading has stabilized. The FLORATek 4 will not allow you to calibrate the probe until the reading is sufficiently stable. 
+7. Select the “Calibrate pH 4.00” option to calibrate the probe.
+8. Gently rinse the tip of the probe with room-temperature tap water, then shake off excess water.
+9. Place the probe into the 7.00pH calibration solution. The solution should cover the entire tip of the probe.
+10. Wait about 30 seconds until the pH reading has stabilized. 
+11. Select the “Calibrate pH 7.00” option to calibrate the probe.
+12. Place the pH probe back into the glass with tap water. 
+13. Press STATUS to return to the main screen, or press CAL to continue to EC probe calibration.
+EC Probe Calibration
+The EC probe is black and the tip has 2 metal electrodes protruding from the tip. 
+
+
+1. Fill a glass with tap water, let it come to room temperature, then place both probes into it. Ensure the pH probe and the EC probe are connected to the FLORATek control box. 
+2. Make sure your EC calibration solution is at room temperature and not expired.
+3. Open the calibration menu by navigating to the “Probes and Sensors” menu then selecting “EC Probe Maintenance.” If you are installing a new probe, select “New EC Probe” to reset the “Days since new” counter.
+4. Press CAL to navigate to the EC calibration screen.
+5. Gently rinse the tip of the probe with room-temperature tap water, then shake off excess water.
+6. Place the probe tip into the EC calibration solution. The solution should cover the entire tip of the probe. 
+7. Wait about 30 seconds for the reading to stabilize. The FLORATek 4 will not allow you to calibrate the probe until the reading is sufficiently stable. 
+8. Select the “Calibrate EC 1000ppm” option to calibrate the probe.
+9. Place the EC probe back into the glass with tap water. 
+
+
+
+
+
+
+System Setup & Blend Time
+
+
+The FLORATek control uses the system capacity setting to calculate doses. It is important to input the full water capacity of your entire hydroponics system, not just the capacity of your reservoir. 
+
+
+After the FloraTEK control calculates and adds a dose, the added nutrients and pH solutions need time to thoroughly blend with the water in your system. If the blend time is set too low, the control will quickly overshoot the setpoints. If this number is too high, the control will take an excessively long amount of time to reach the setpoints. Always start with a blend time higher than you believe is appropriate! It is much safer for your plants if the control slowly reaches the setpoints compared to if the control overshoots the setpoints. The blend time can be reduced as you learn how “fast” or “slow” your hydroponic system is.  
+
+
+A good starting point for Blend Time is 3 times the turnover time:
+(System Capacity / GPM) x 3 = Blend Time
+
+
+Note that your actual pump rate may be much slower than the rate listed by the pump manufacturer, especially if smaller tubing and large pumping heights are used. 
+
+
+Solution Concentrations
+
+
+The FLORATek 4 control is designed to work with a wide variety of pH control and nutrient solutions. However, some commercially available solutions can be more or less concentrated than the FLORATek’s control algorithm is expecting. After using your control for a few cycles, if you notice that the pH or EC is consistently overshooting the setpoint, you probably are using more concentrated solutions. In the “Custom Gains” setup submenu, decrease the affected solutions gain to reduce the amount of solution the control will add. Conversely, if you notice the control takes an exceedingly long time to reach the setpoint, you can try increasing the gain of the affected solution to increase the amount of solution the control will add. 
+
+
+The default gain is 100%. By lowering the nutrient gain to 20% for example, the control will only add 20% of the calculated dose. By increasing the nutrient gain to 200%, the control will add 200% (or double) of the calculated dose. 
+
+
+We strongly recommend keeping your gains set to 100% unless you are repeatedly experiencing dosing overshoots or undershoots and have confirmed all other settings are correct.
+
+
+Dosing Pump Setup
+
+
+Setting up your dosing pumps is essential for the FLORATek control to function correctly. The control automatically assigns pumps depending on how many dosing pumps are installed and your pH configuration. 
+
+
+To connect remote pump expansion modules, first set up the main FLORATek 4 control. When you are ready to pair a pump expansion, plug it in and then select “Connect Remote Pumps” in the Remote Pumps submenu. Your control will automatically find and pair with the remote pump module. Remote pumps can only be paired one at a time, and are paired sequentially. 
+
+
+The FLORATek 4 control can track how much pH and nutrient solutions it has pumped. You may then view current solution levels on the Solution Levels information screen (found by pressing left or right from the main status screen). Every connected dosing pump will have a submenu to view its current level and reset the level when you refill it. 
+
+
+The control also has the ability to save custom names for all of the nutrients. These labels will be used on the solution levels information screen as well as the data logs and other displays. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Priming the Pumps
+
+
+Before using your FLORATek to add nutrients and pH solution to your water, you must first prime the dosing pumps. This ensures that as soon as the pumps are turned on, the nutrients and solution drip into the reservoir. 
+
+
+To prime the pumps:
+1. Make sure your pH solution and nutrients are properly installed, with tubing going from the container to the input (left) side of the pump, then from the output (right) side of the pump to the probe mount above the surface of the water
+2. Navigate to the Prime Pumps menu
+3. Press and hold the desired pump number to prime that pump. 
+
+
+
+
+
+
+
+
+
+
+
+
+Important: When switching between pH up and pH down solutions, it is important to flush the tubing with water to prevent the pH solutions from coming into contact with each other:
+1. Remove the suction end of the pH solution tube from the solution container
+2. Remove the end of the pH solution tube from the probe bracket and place it into the pH solution container. This will pump the solution out of the tubing back into the container
+3. Use the pump prime function to drain the pH tube
+4. Once the tubing is drained, place both ends of the tubing into a glass of water
+5. Use the pump prime function again to flush the tubing for about 1 minute
+6. Remove the suction end from the water and continue priming to pump all water from the tube
+7. Once the tube is empty, install the new pH solution and prime the pump
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dosing Setup
+Once your FLORATek setup menus are configured, it is time to input information on your desired nutrient dosing. Your control will use this information to calculate how much of each nutrient to add. You can find this information on the desired stage/week of your nutrient’s feedchart. 
+
+
+The Dosing Setup menu will display the current growday for your convenience. This can be helpful when referencing the feedchart for your nutrient system. 
+
+
+All nutrient setpoints are in mL / gallon. Note that the FLORATek 4 does not use the nutrient setpoints directly when dosing- it examines all of your nutrient setpoints to determine the desired nutrient ratio, then uses that ratio to accurately dose to your EC Setpoint. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using the Control
+
+
+Once setup and configuration are complete, you are ready to start using your FLORATek 4 system! First, it is important to understand how the control algorithm works to treat and balance your water, then keep it balanced. 
+
+
+The FLORATek control has two modes: Pause and Run 
+
+
+When the control is plugged in, it will always startup in the pause mode. While in pause mode, you have the ability to change settings, dosage, and calibration. The control will also display the pH, EC, and temperature of your water. 
+
+
+Pressing the RUN button will enable FLORATek’s Smart Proportional Control, which continuously monitors your water, analyzes the need for additional nutrients or pH corrections, calculates the most effective doses, and runs the pumps. You cannot change settings while in the run mode. 
+
+
+Details:
+* The nutrients will always be added at the correct ratio based off of the information imputed on the Dose menu. 
+* The Smart Proportional Control will always correct EC error before correcting pH error. Many hydroponic nutrients will also affect the pH of your water. If pH is corrected first, adding large amounts of nutrients can push your pH out of balance. 
+* The control will automatically switch the pumps between high-speed for large doses and low-speed for small doses.
+
+
+While the FLORATek 4 will accurately and efficiently treat and balance your water, remember that it can only adjust the pH of your water in the direction of the pH control solution you have installed. It can also only raise the EC of the water, as the only way to lower the EC level of your water is to dilute it. 
+
+
+Supplemental Nutrients
+
+
+If you are using supplemental nutrients other than what is automatically added with the nutrient pumps, we recommend that you add these nutrients first, then wait for them to thoroughly mix in before pressing the RUN button. If you add these nutrients after your system has reached its EC setpoint, your EC level will be pushed beyond the setpoint as the additional nutrients mix into your water. 
+
+
+Alarms and Faults
+When the pH, EC, or temperature of your water is outside of the alarm bands you set in the setup menus, an alarm will activate and the red ALARM light will flash. You can view current alarms by pressing the Alarm button if the ALARM light is flashing. The ALARM light will now be steady.  
+
+
+Alarms can sometimes be expected, as usually the pH and/or EC of your untreated water will be outside of the alarm bands when you are just starting out or right after a water change. Give the control some time to bring the pH and EC to their setpoints and the alarms will deactivate. 
+
+
+Potential causes of unexpected pH and EC alarms:
+* The water level in your reservoir drops below the tip of the EC probe. This is the most common cause for a pH or EC alarm, and can be easily corrected by adding water to the system to bring it back up to the “full” level. All hydroponic systems lose water due to evaporation, but check for leaks if your water level drops unusually quickly. 
+* Your pH correction solutions or nutrients are empty. Make sure the suction tubes leading to the pumps are fully submerged in solution/nutrients. 
+* There is a kink, leak, or clog in your solution/nutrient tubing. Ensure your tubing is connected properly and is not kinked. 
+* The pH or EC of your water changes more quickly than the controller can correct. This is typically the result of you adding water or manually adding nutrients. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Water Changes
+Regularly changing the water in your hydroponics system is beneficial to remove contaminants from the water, manually clean any algae growth, and ensure ideal growing conditions for your plants. However, changing your water too frequently is also inefficient, wasteful, and can lead to issues with your plants. 
+
+
+When deciding how frequently to change your water, consider the following:
+* Upcoming changes to your nutrient dosing. When moving to a new week or stage on your nutrient feedchart, you should complete a water change. 
+* How quickly algae growth appears in your reservoir, grow containers, or plumbing. You should always check for algae growth and clean it when necessary. 
+* If your water is filtered at any point in the circulation. Filters can keep your water cleaner for longer. 
+* The type of plants you are growing. Some plants are “pickier” about water changes than others. 
+
+
+If you expect the pH probe to be out of the water for more than 15 minutes, the tip should be placed into probe storage solution. 
+
+
+Typical water change procedure with a FLORATek system:
+1. Unplug your FLORATek control
+2. Remove your probes and properly store them in a safe place. 
+3. Drain the water from your hydroponic system
+4. Clean your hydroponic system as needed
+5. Refill your hydroponic system with clean water to the proper level. Remember to circulate the water before starting your FLORATek control.
+6. Place your probes back in your reservoir and ensure all tubing is reinstalled correctly
+7. Plug in your FLORATek system
+8. Readjust your EC Base (if desired)
+9. Update your dose to the new stage/week of your feedchart, as required
+10. Press RUN to start treating your water
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connecting to Blynk
+
+
+Tetraponics has partnered with Blynk to provide you with remote access and control of your FLORATek 4 system. We selected Blynk because of its powerful features and ease of use. 
+
+
+Access to the Blynk functionality on your FLORATek 4 requires a current Remote Access Subscription. 
+
+
+You can access the Blynk dashboard from any computer or with the free Blynk smartphone app. The app is required for the initial device provisioning process.
+
+
+1. After subscribing to Remote Access, you will receive an email invitation to sign up to Blynk. 
+2. Once signed up, install the Blynk app on your smartphone and log in. 
+3. On your FLORATek 4 control, navigate to the “WiFi and Updates” menu and select “Enable Blynk”.
+4. On your Blynk app, select add new device, then Find Devices Nearby
+5. Select your FLORATek 4 control from the list
+6. Input your WiFi credentials. These will be sent to the FLORATek 4 control, which will then connect directly to Blynk using your WiFi network. 
+7. Once successful, you can save your FLORATek 4 device as a custom name, if desired. 
+
+
+You can now access your control directly from the Blynk dashboard on any computer or your Blynk app. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contact Us
+
+
+If you have any questions or concerns while setting up or using your FLORATek  system, please contact us for support:
+
+
+www.tetraponics.com/contact
+
+
+support@tetraponics.com
+
+
+
+
+
+
+  
+
+                                                   www.TETRAPONICS.com
+[a]add link

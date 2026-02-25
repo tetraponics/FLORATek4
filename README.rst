@@ -1,9 +1,10 @@
-Template for the Read the Docs tutorial
-=======================================
+FLORATek 4 User Manual
+======================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Comprehensive documentation for the FLORATek 4 and FLORATek 4 Pro
+hydroponics controllers.
 
-Read the tutorial here:
+The FLORATek 4 is a powerful hydroponics controller designed to monitor,
+track, and control the pH and nutrient levels in your hydroponics system.
 
-https://docs.readthedocs.io/en/stable/tutorial/
+Documentation: https://floratek4.readthedocs.io/
