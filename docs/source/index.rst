@@ -18,6 +18,7 @@ Getting Started
    introduction
    features
    getting-started
+   how-it-works
    system-setup
 
 Configuration
