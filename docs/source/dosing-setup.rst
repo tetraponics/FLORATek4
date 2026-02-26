@@ -1,7 +1,17 @@
 Dosing Setup
 ============
 
-Frequently-adjusted settings pertaining to your current nutrient schedule and grow cycle.
+Once your FLORATek setup menus are configured, it is time to input information on your desired nutrient dosing. Your control will use this information to calculate how much of each nutrient to add. You can find this information on the desired stage/week of your nutrient's feedchart.
+
+The Dosing Setup menu will display the current growday for your convenience. This can be helpful when referencing the feedchart for your nutrient system.
+
+All nutrient setpoints are in mL/gallon. Note that the FLORATek 4 does not use the nutrient setpoints directly when dosing - it examines all of your nutrient setpoints to determine the desired nutrient ratio, then uses that ratio to accurately dose to your EC Setpoint.
+
+
+
+
+Menu Settings
+-------------
 
 Current Growday
 ---------------
@@ -36,12 +46,3 @@ Use to set the current growday to 1.
 Reset Current Dose
 ------------------
 When the control is paused, this function can be used to reset the current dose calculations.
-
-Using Dosing Setup
-------------------
-
-Once your FLORATek setup menus are configured, it is time to input information on your desired nutrient dosing. Your control will use this information to calculate how much of each nutrient to add. You can find this information on the desired stage/week of your nutrient's feedchart.
-
-The Dosing Setup menu will display the current growday for your convenience. This can be helpful when referencing the feedchart for your nutrient system.
-
-All nutrient setpoints are in mL/gallon. Note that the FLORATek 4 does not use the nutrient setpoints directly when dosing - it examines all of your nutrient setpoints to determine the desired nutrient ratio, then uses that ratio to accurately dose to your EC Setpoint.
