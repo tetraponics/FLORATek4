@@ -84,31 +84,31 @@ a:visited {
    ==================== */
 
 /* Note boxes */
-.admonition.note {
+/* .admonition.note {
     border-left: 4px solid var(--brand-primary) !important;
-}
+} */
 
-.admonition.note .admonition-title {
+/* .admonition.note .admonition-title {
     background-color: var(--brand-primary) !important;
-}
+} */
 
 /* Tip boxes */
-.admonition.tip {
+/* .admonition.tip {
     border-left: 4px solid var(--brand-secondary) !important;
-}
+} */
 
-.admonition.tip .admonition-title {
+/* .admonition.tip .admonition-title {
     background-color: var(--brand-secondary) !important;
-}
+} */
 
 /* Warning boxes */
-.admonition.warning {
+/* .admonition.warning {
     border-left: 4px solid var(--brand-accent) !important;
-}
+} */
 
-.admonition.warning .admonition-title {
+/* .admonition.warning .admonition-title {
     background-color: var(--brand-accent) !important;
-}
+} */
 
 /* ====================
    CUSTOM STYLES
@@ -160,6 +160,20 @@ a:visited {
 /* Code block customization */
 .highlight {
     border-left: 3px solid var(--brand-primary);
+}
+
+/* ====================
+   VERSION SELECTOR CUSTOMIZATION
+   ==================== */
+
+/* Add "FLORATek 4 SW Version:" label above version selector */
+.rst-versions .rst-current-version::before {
+    content: "FLORATek 4 SW Version:";
+    display: block;
+    font-size: 0.85em;
+    color: #8d8d8d;
+    margin-bottom: 5px;
+    font-weight: normal;
 }
 
 /* ====================
