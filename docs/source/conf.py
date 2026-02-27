@@ -6,8 +6,8 @@ project = 'FLORATek 4'
 copyright = '2026, Tetraponics'
 author = 'Tetraponics'
 
-release = '2.x.x'
-version = '2.x.x'
+release = 'v2.x.x'
+version = 'v2.x.x'
 
 # -- General configuration
 
@@ -36,11 +36,6 @@ html_theme_options = {
     'logo_only': False,
     'display_version': True,
     'version_selector': True,
-    'current_version': 'v2.x.x',
-    'versions': {
-        'v2.x.x': 'https://docs.floratek.com/en/v2.x.x/',
-        'v1.x.x': 'https://docs.floratek.com/en/v1.x.x/',
-    },
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'style_nav_header_background': '#2ecc71',  # Your brand color
