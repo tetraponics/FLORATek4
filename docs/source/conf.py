@@ -34,7 +34,6 @@ html_theme = 'sphinx_rtd_theme'
 # Theme options for branding
 html_theme_options = {
     'logo_only': False,
-    'display_version': True,
     'version_selector': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
