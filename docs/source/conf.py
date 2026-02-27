@@ -35,6 +35,7 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'logo_only': False,
     'display_version': True,
+    'version_selector': True,
     'current_version': 'v2.x.x',
     'versions': {
         'v2.x.x': 'https://docs.floratek.com/en/v2.x.x/',
