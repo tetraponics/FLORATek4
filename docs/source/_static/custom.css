@@ -166,15 +166,8 @@ a:visited {
    VERSION SELECTOR CUSTOMIZATION
    ==================== */
 
-/* Add "FLORATek 4 SW Version:" label above version selector */
-.rst-versions .rst-current-version::before {
-    content: "FLORATek 4 SW Version:";
-    display: block;
-    font-size: 0.85em;
-    color: #8d8d8d;
-    margin-bottom: 5px;
-    font-weight: normal;
-}
+/* Custom version selector is handled by version-selector.js */
+/* Using Read the Docs Addons API for better version management */
 
 /* ====================
    RESPONSIVE ADJUSTMENTS

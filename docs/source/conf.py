@@ -51,6 +51,9 @@ html_static_path = ['_static']
 html_css_files = [
     'custom.css',
 ]
+html_js_files = [
+    'version-selector.js',
+]
 
 # Logo and favicon (add your logo files to _static folder)
 html_logo = '_static/tetraponicslogo.png'
