@@ -6,8 +6,8 @@ project = 'FLORATek 4'
 copyright = '2026, Tetraponics'
 author = 'Tetraponics'
 
-release = '1.x.x'
-version = '1.x.x'
+release = '2.x.x'
+version = '2.x.x'
 
 # -- General configuration
 
