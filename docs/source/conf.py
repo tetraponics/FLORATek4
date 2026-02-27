@@ -35,6 +35,10 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'logo_only': False,
     'display_version': True,
+    'versions': {
+        '2.x.x': 'https://docs.floratek.com/en/2.x.x/',
+        '1.x.x': 'https://docs.floratek.com/en/1.x.x/',
+    },
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'style_nav_header_background': '#2ecc71',  # Your brand color
