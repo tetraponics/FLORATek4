@@ -35,14 +35,9 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'logo_only': False,
     'display_version': True,
-    'current_version': '2.x.x',
-    'versions': {
-        '2.x.x': 'https://docs.floratek.com/en/2.x.x/',
-        '1.x.x': 'https://docs.floratek.com/en/1.x.x/',
-    },
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
-    'style_nav_header_background': '#2ecc71',  # Your brand color
+    'style_nav_header_background': '#006cd8',  # Your brand color
     # Toc options
     'collapse_navigation': False,
     'sticky_navigation': True,
@@ -56,9 +51,8 @@ html_static_path = ['_static']
 html_css_files = [
     'custom.css',
 ]
-html_js_files = [
-    'version-selector.js',
-]
+# Version dropdown is automatically added by Read the Docs hosting
+# No custom JavaScript needed!
 
 # Logo and favicon (add your logo files to _static folder)
 html_logo = '_static/tetraponicslogo.png'
