@@ -65,7 +65,8 @@ Connectivity
 .. toctree::
    :maxdepth: 2
 
-   blynk
+   wifi-connectivity
+   data-logging
 
 Support
 -------

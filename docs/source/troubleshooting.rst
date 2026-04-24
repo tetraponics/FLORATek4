@@ -83,17 +83,17 @@ Controller Overshooting Setpoints
 * Ensure water is circulating properly throughout system
 * Check that system capacity is set correctly
 
-WiFi/Blynk Not Connecting
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+WiFi/FLORATek Connect Not Connecting
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Symptoms:** Cannot connect to Blynk or WiFi shows disconnected.
+**Symptoms:** Cannot connect to FLORATek Connect or WiFi shows disconnected.
 
 **Solutions:**
 
 * Verify WiFi credentials are correct
 * Ensure FLORATek is within range of WiFi router
-* Try resetting Blynk and reprovisioning
-* Check that Blynk is enabled in settings
+* Try resetting WiFi connection and reprovisioning
+* Check that WiFi connectivity is enabled in settings
 * Verify Remote Access Subscription is active
 
 Getting Help
